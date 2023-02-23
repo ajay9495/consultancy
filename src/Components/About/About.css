@@ -1,0 +1,44 @@
+
+
+.a-image{
+
+    width: 100%;
+    aspect-ratio: 1.5/1;
+    object-fit: cover;
+    object-position: 0rem 0rem;
+
+}
+
+.a-txt-wrapper{
+    background-color: #253499;
+    width: 100%;
+    aspect-ratio: 1.5/1;
+}
+
+.a-txt-wrapper:hover{
+    /* background-color: #606ecd; */
+    background-color: #091772;
+}
+
+
+@media (max-width:576px) {
+    
+    .a-txt-wrapper{
+        aspect-ratio: auto;
+    }
+    .a-txt-wrapper:hover{
+        /* background-color: #606ecd; */
+        background-color: #253499;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+

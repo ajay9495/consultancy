@@ -1,0 +1,49 @@
+
+.h-wrapper{
+    /* background-color: #253499; */
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+a{
+    text-decoration: none;
+    color: #695858;
+}
+
+.h-nav{
+    padding: 0rem 5rem 0rem 5rem ;
+}
+
+.logo{
+    width: 15rem;
+}
+
+.h-nav-item{
+    color: #695858;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.h-nav-item:hover{
+    /* background-color: #000; */
+    text-decoration: underline;
+}
+
+
+@media (max-width:576px) {
+
+
+    .h-wrapper{
+        /* background-color: #253499; */
+        padding: 0rem 0rem 0rem 0rem;
+        height: fit-content;
+    }
+
+    .logo{
+        width: 12rem;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+
+
+}
